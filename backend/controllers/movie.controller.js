@@ -16,6 +16,7 @@ export const addMovie = async (re,res,next) => {
             description,
             releaseDate: new Date (`${releaseDate}`),
             featured,
+            posterUrl,
             actors,
             admin,
         });

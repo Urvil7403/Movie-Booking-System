@@ -1,8 +1,8 @@
 import express from "express";
 import { newBooking } from "../controllers/booking-controller";
 
-const bookingRouter = express.Router();
+const bookingsRouter = express.Router();
 
-bookingRouter.post("/",  newBooking);
+bookingsRouter.post("/",  newBooking);
 
 export default bookingsRouter;
