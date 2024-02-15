@@ -3,4 +3,6 @@ import { newBooking } from "../controllers/booking-controller";
 
 const bookingRouter = express.Router();
 
-bookingRouter.post("/",  newBooking)
+bookingRouter.post("/",  newBooking);
+
+export default bookingsRouter;
