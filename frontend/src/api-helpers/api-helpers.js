@@ -1,4 +1,5 @@
-import axios from "axios";
+import axios from 'axios';
+import { configureStore } from '@reduxjs/toolkit';  
 export const getAllMovies = async () => {
   const res = await axios.get("/movie").catch((err) => console.log(err));
 
